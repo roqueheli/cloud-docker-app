@@ -3,7 +3,11 @@ on:
   push:
     branches:
       - master
-    paths:
+    # paths:
+    #   - 'src/*'
+    #   - 'package.json'
+    #   - 'public/*'
+    paths-ignore:
       - 'src/*'
       - 'package.json'
       - 'public/*'
